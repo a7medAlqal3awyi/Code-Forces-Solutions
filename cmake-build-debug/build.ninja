@@ -205,6 +205,39 @@ build dd.exe: CXX_EXECUTABLE_LINKER__dd_Debug CMakeFiles/dd.dir/Sheet_#1_(Data_t
   TARGET_IMPLIB = libdd.dll.a
   TARGET_PDB = dd.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Area_of_a_Circle
+
+
+#############################################
+# Order-only phony target for Area_of_a_Circle
+
+build cmake_object_order_depends_target_Area_of_a_Circle: phony || CMakeFiles/Area_of_a_Circle.dir
+
+build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj: CXX_COMPILER__Area_of_a_Circle_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Area$ of$ a$ Circle.cpp || cmake_object_order_depends_target_Area_of_a_Circle
+  DEP_FILE = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)\Area_of_a_Circle.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Area_of_a_Circle
+
+
+#############################################
+# Link the executable Area_of_a_Circle.exe
+
+build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Area_of_a_Circle.exe
+  TARGET_IMPLIB = libArea_of_a_Circle.dll.a
+  TARGET_PDB = Area_of_a_Circle.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -231,6 +264,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Area_of_a_Circle: phony Area_of_a_Circle.exe
+
 build calculator: phony calculator.exe
 
 build data_types: phony data_types.exe
@@ -249,7 +284,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe
 
 # =============================================================================
 # Built-in targets

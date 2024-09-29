@@ -17,3 +17,6 @@ add_executable(calculator
 )
 add_executable(dd
         "Sheet #1 (Data type - Conditions)/Difference.cpp")
+
+add_executable(Area_of_a_Circle
+        "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp")
