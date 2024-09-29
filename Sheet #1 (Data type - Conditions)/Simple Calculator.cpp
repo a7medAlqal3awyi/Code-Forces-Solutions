@@ -1,3 +1,4 @@
+#include <cmath>
 #include <iostream>
 using namespace std;
 /*
@@ -25,7 +26,7 @@ Be careful with spaces.
 
 int main()
 {
- int x,y;
+ long long x,y;
  cin>>x>>y;
  cout<< x <<" + "<<y<<" = "<<x+y<<endl;
  cout<< x <<" * "<<y<<" = "<<x*y<<endl;

@@ -172,6 +172,39 @@ build calculator.exe: CXX_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calcula
   TARGET_IMPLIB = libcalculator.dll.a
   TARGET_PDB = calculator.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target dd
+
+
+#############################################
+# Order-only phony target for dd
+
+build cmake_object_order_depends_target_dd: phony || CMakeFiles/dd.dir
+
+build CMakeFiles/dd.dir/Sheet_#1_(Data_type_-_Conditions)/Difference.cpp.obj: CXX_COMPILER__dd_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Difference.cpp || cmake_object_order_depends_target_dd
+  DEP_FILE = "CMakeFiles\dd.dir\Sheet_#1_(Data_type_-_Conditions)\Difference.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dd.dir
+  OBJECT_FILE_DIR = "CMakeFiles\dd.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dd
+
+
+#############################################
+# Link the executable dd.exe
+
+build dd.exe: CXX_EXECUTABLE_LINKER__dd_Debug CMakeFiles/dd.dir/Sheet_#1_(Data_type_-_Conditions)/Difference.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dd.exe
+  TARGET_IMPLIB = libdd.dll.a
+  TARGET_PDB = dd.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -202,6 +235,8 @@ build calculator: phony calculator.exe
 
 build data_types: phony data_types.exe
 
+build dd: phony dd.exe
+
 build main: phony main.exe
 
 build say_hello: phony say_hello.exe
@@ -214,7 +249,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe
 
 # =============================================================================
 # Built-in targets

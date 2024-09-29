@@ -13,4 +13,7 @@ add_executable(data_types
         "Sheet #1 (Data type - Conditions)/Basic Data Types.cpp"
 )
 add_executable(calculator
-        "Sheet #1 (Data type - Conditions)/Simple Calculator.cpp")
+        "Sheet #1 (Data type - Conditions)/Simple Calculator.cpp"
+)
+add_executable(dd
+        "Sheet #1 (Data type - Conditions)/Difference.cpp")
