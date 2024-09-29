@@ -139,6 +139,39 @@ build data_types.exe: CXX_EXECUTABLE_LINKER__data_types_Debug CMakeFiles/data_ty
   TARGET_IMPLIB = libdata_types.dll.a
   TARGET_PDB = data_types.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target calculator
+
+
+#############################################
+# Order-only phony target for calculator
+
+build cmake_object_order_depends_target_calculator: phony || CMakeFiles/calculator.dir
+
+build CMakeFiles/calculator.dir/Sheet_#1_(Data_type_-_Conditions)/Simple_Calculator.cpp.obj: CXX_COMPILER__calculator_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Simple$ Calculator.cpp || cmake_object_order_depends_target_calculator
+  DEP_FILE = "CMakeFiles\calculator.dir\Sheet_#1_(Data_type_-_Conditions)\Simple_Calculator.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\calculator.dir
+  OBJECT_FILE_DIR = "CMakeFiles\calculator.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calculator
+
+
+#############################################
+# Link the executable calculator.exe
+
+build calculator.exe: CXX_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calculator.dir/Sheet_#1_(Data_type_-_Conditions)/Simple_Calculator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\calculator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = calculator.exe
+  TARGET_IMPLIB = libcalculator.dll.a
+  TARGET_PDB = calculator.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,6 +198,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build calculator: phony calculator.exe
+
 build data_types: phony data_types.exe
 
 build main: phony main.exe
@@ -179,7 +214,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe
 
 # =============================================================================
 # Built-in targets

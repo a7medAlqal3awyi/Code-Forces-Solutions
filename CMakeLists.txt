@@ -12,3 +12,5 @@ add_executable(say_hello
 add_executable(data_types
         "Sheet #1 (Data type - Conditions)/Basic Data Types.cpp"
 )
+add_executable(calculator
+        "Sheet #1 (Data type - Conditions)/Simple Calculator.cpp")
