@@ -1,5 +1,5 @@
 /*
-Given four numbers A, B, C and D. Print the result of the following equation :
+Given four numBers A, B, C and D. Print the result of the following equation :
 
  X = (A * B) - (C * D).
 
@@ -24,11 +24,13 @@ Difference = -14
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int n1, n2, n3, n4;
-    cin >> n1 >> n2 >> n3 >> n4;
-    int res = (n1 * n2) - (n3 * n4);
-    cout << "Difference =  " << res<<endl;
+int main() {
+    long long A, B, C, D;
+    cin >> A >> B >> C >> D;
+
+    long long result = (A * B) - (C * D);
+
+    cout << "Difference = " << result << endl;
+
     return 0;
 }
