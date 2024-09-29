@@ -1,11 +1,10 @@
 # ninja log v6
 8	728	7493257849234877	CMakeFiles/code_forces_solutions.dir/main.cpp.obj	1efc42a23c84f2f2
+3	710	7493264591961267	CMakeFiles/main.dir/main.cpp.obj	bb2bfe746d6a3e3
 732	935	7493257856480920	code_forces_solutions.exe	8d99b27739255d5e
 3	580	7493264137842800	CMakeFiles/say_hello.dir/main.cpp.obj	facdc53c3e5bcdc9
-3	593	7493263656088010	CMakeFiles/say_hello.dir/Sheet_#1_(Data_type_-_Conditions)/Say_Hello_With_C++.cpp.obj	9470b58f910094d0
-595	794	7493263662002540	say_hello.exe	bc61313b7e80539a
-3	710	7493264591961267	CMakeFiles/main.dir/main.cpp.obj	bb2bfe746d6a3e3
-714	973	7493264599066362	main.exe	ffa574385d2ad72d
-4	218	7493264653892454	say_hello.exe	bc61313b7e80539a
 4	706	7493266081046051	CMakeFiles/say_hello.dir/Sheet_#1_(Data_type_-_Conditions)/Say_Hello_With_C++.cpp.obj	9470b58f910094d0
 708	914	7493266088082040	say_hello.exe	bc61313b7e80539a
+714	973	7493264599066362	main.exe	ffa574385d2ad72d
+4	677	7493275265717771	CMakeFiles/data_types.dir/Sheet_#1_(Data_type_-_Conditions)/Basic_Data_Types.cpp.obj	a98d20cc631774d5
+678	890	7493275272458682	data_types.exe	1983f3e9d9106fb5

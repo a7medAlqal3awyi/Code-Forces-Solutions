@@ -9,3 +9,6 @@ add_executable(main
 add_executable(say_hello
         "Sheet #1 (Data type - Conditions)/Say Hello With C++.cpp"
 )
+add_executable(data_types
+        "Sheet #1 (Data type - Conditions)/Basic Data Types.cpp"
+)
