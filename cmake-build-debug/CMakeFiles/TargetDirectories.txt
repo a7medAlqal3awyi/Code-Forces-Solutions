@@ -1,3 +1,4 @@
-E:/code_forces_solutions/cmake-build-debug/CMakeFiles/code_forces_solutions.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/main.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/say_hello.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
