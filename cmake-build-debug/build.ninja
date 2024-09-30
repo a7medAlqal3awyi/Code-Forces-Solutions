@@ -238,6 +238,39 @@ build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeF
   TARGET_IMPLIB = libArea_of_a_Circle.dll.a
   TARGET_PDB = Area_of_a_Circle.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Digits_Summation
+
+
+#############################################
+# Order-only phony target for Digits_Summation
+
+build cmake_object_order_depends_target_Digits_Summation: phony || CMakeFiles/Digits_Summation.dir
+
+build CMakeFiles/Digits_Summation.dir/Sheet_#1_(Data_type_-_Conditions)/Digits_Summation.cpp.obj: CXX_COMPILER__Digits_Summation_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Digits$ Summation.cpp || cmake_object_order_depends_target_Digits_Summation
+  DEP_FILE = "CMakeFiles\Digits_Summation.dir\Sheet_#1_(Data_type_-_Conditions)\Digits_Summation.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Digits_Summation.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Digits_Summation.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Digits_Summation
+
+
+#############################################
+# Link the executable Digits_Summation.exe
+
+build Digits_Summation.exe: CXX_EXECUTABLE_LINKER__Digits_Summation_Debug CMakeFiles/Digits_Summation.dir/Sheet_#1_(Data_type_-_Conditions)/Digits_Summation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Digits_Summation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Digits_Summation.exe
+  TARGET_IMPLIB = libDigits_Summation.dll.a
+  TARGET_PDB = Digits_Summation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -266,6 +299,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
+build Digits_Summation: phony Digits_Summation.exe
+
 build calculator: phony calculator.exe
 
 build data_types: phony data_types.exe
@@ -284,7 +319,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe
 
 # =============================================================================
 # Built-in targets
