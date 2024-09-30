@@ -22,3 +22,5 @@ add_executable(Area_of_a_Circle
         "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp")
 add_executable(Digits_Summation
         "Sheet #1 (Data type - Conditions)/Digits Summation.cpp")
+add_executable(Summation_from_1_to_N
+        "Sheet #1 (Data type - Conditions)/Summation from 1 to N.cpp")
