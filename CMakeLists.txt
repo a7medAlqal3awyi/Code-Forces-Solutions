@@ -24,3 +24,5 @@ add_executable(Digits_Summation
         "Sheet #1 (Data type - Conditions)/Digits Summation.cpp")
 add_executable(Summation_from_1_to_N
         "Sheet #1 (Data type - Conditions)/Summation from 1 to N.cpp")
+add_executable(Two_numbers
+        "Sheet #1 (Data type - Conditions)/Two numbers.cpp")

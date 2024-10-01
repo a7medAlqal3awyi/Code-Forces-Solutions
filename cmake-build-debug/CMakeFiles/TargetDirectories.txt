@@ -6,5 +6,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/dd.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Area_of_a_Circle.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Digits_Summation.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Summation_from_1_to_N.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Two_numbers.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

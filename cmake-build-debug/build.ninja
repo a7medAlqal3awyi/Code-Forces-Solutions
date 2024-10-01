@@ -304,6 +304,39 @@ build Summation_from_1_to_N.exe: CXX_EXECUTABLE_LINKER__Summation_from_1_to_N_De
   TARGET_IMPLIB = libSummation_from_1_to_N.dll.a
   TARGET_PDB = Summation_from_1_to_N.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Two_numbers
+
+
+#############################################
+# Order-only phony target for Two_numbers
+
+build cmake_object_order_depends_target_Two_numbers: phony || CMakeFiles/Two_numbers.dir
+
+build CMakeFiles/Two_numbers.dir/Sheet_#1_(Data_type_-_Conditions)/Two_numbers.cpp.obj: CXX_COMPILER__Two_numbers_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Two$ numbers.cpp || cmake_object_order_depends_target_Two_numbers
+  DEP_FILE = "CMakeFiles\Two_numbers.dir\Sheet_#1_(Data_type_-_Conditions)\Two_numbers.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Two_numbers.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Two_numbers.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Two_numbers
+
+
+#############################################
+# Link the executable Two_numbers.exe
+
+build Two_numbers.exe: CXX_EXECUTABLE_LINKER__Two_numbers_Debug CMakeFiles/Two_numbers.dir/Sheet_#1_(Data_type_-_Conditions)/Two_numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Two_numbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Two_numbers.exe
+  TARGET_IMPLIB = libTwo_numbers.dll.a
+  TARGET_PDB = Two_numbers.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -336,6 +369,8 @@ build Digits_Summation: phony Digits_Summation.exe
 
 build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
 
+build Two_numbers: phony Two_numbers.exe
+
 build calculator: phony calculator.exe
 
 build data_types: phony data_types.exe
@@ -354,7 +389,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe
 
 # =============================================================================
 # Built-in targets
