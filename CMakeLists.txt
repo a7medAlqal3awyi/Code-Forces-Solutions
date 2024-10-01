@@ -19,7 +19,8 @@ add_executable(dd
         "Sheet #1 (Data type - Conditions)/Difference.cpp")
 
 add_executable(Area_of_a_Circle
-        "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp")
+        "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp"
+        "Sheet #1 (Data type - Conditions)/Multiples.cpp")
 add_executable(Digits_Summation
         "Sheet #1 (Data type - Conditions)/Digits Summation.cpp")
 add_executable(Summation_from_1_to_N
@@ -28,3 +29,5 @@ add_executable(Two_numbers
         "Sheet #1 (Data type - Conditions)/Two numbers.cpp")
 add_executable(Welcome_for_yo_with_Conditions
         "Sheet #1 (Data type - Conditions)/Welcome for you with Conditions.cpp")
+add_executable(Multiples
+        "Sheet #1 (Data type - Conditions)/Multiples.cpp")

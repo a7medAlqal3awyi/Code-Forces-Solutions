@@ -220,6 +220,12 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
   OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
 
+build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj: CXX_COMPILER__Area_of_a_Circle_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Multiples.cpp || cmake_object_order_depends_target_Area_of_a_Circle
+  DEP_FILE = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)\Multiples.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Area_of_a_Circle
@@ -228,7 +234,7 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_
 #############################################
 # Link the executable Area_of_a_Circle.exe
 
-build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj
+build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
@@ -370,6 +376,39 @@ build Welcome_for_yo_with_Conditions.exe: CXX_EXECUTABLE_LINKER__Welcome_for_yo_
   TARGET_IMPLIB = libWelcome_for_yo_with_Conditions.dll.a
   TARGET_PDB = Welcome_for_yo_with_Conditions.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Multiples
+
+
+#############################################
+# Order-only phony target for Multiples
+
+build cmake_object_order_depends_target_Multiples: phony || CMakeFiles/Multiples.dir
+
+build CMakeFiles/Multiples.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj: CXX_COMPILER__Multiples_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Multiples.cpp || cmake_object_order_depends_target_Multiples
+  DEP_FILE = "CMakeFiles\Multiples.dir\Sheet_#1_(Data_type_-_Conditions)\Multiples.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Multiples.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Multiples.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Multiples
+
+
+#############################################
+# Link the executable Multiples.exe
+
+build Multiples.exe: CXX_EXECUTABLE_LINKER__Multiples_Debug CMakeFiles/Multiples.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Multiples.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Multiples.exe
+  TARGET_IMPLIB = libMultiples.dll.a
+  TARGET_PDB = Multiples.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -400,6 +439,8 @@ build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
 build Digits_Summation: phony Digits_Summation.exe
 
+build Multiples: phony Multiples.exe
+
 build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
 
 build Two_numbers: phony Two_numbers.exe
@@ -424,7 +465,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe
 
 # =============================================================================
 # Built-in targets
