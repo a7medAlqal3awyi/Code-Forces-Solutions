@@ -26,3 +26,5 @@ add_executable(Summation_from_1_to_N
         "Sheet #1 (Data type - Conditions)/Summation from 1 to N.cpp")
 add_executable(Two_numbers
         "Sheet #1 (Data type - Conditions)/Two numbers.cpp")
+add_executable(Welcome_for_yo_with_Conditions
+        "Sheet #1 (Data type - Conditions)/Welcome for you with Conditions.cpp")

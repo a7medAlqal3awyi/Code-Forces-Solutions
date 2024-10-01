@@ -337,6 +337,39 @@ build Two_numbers.exe: CXX_EXECUTABLE_LINKER__Two_numbers_Debug CMakeFiles/Two_n
   TARGET_IMPLIB = libTwo_numbers.dll.a
   TARGET_PDB = Two_numbers.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Welcome_for_yo_with_Conditions
+
+
+#############################################
+# Order-only phony target for Welcome_for_yo_with_Conditions
+
+build cmake_object_order_depends_target_Welcome_for_yo_with_Conditions: phony || CMakeFiles/Welcome_for_yo_with_Conditions.dir
+
+build CMakeFiles/Welcome_for_yo_with_Conditions.dir/Sheet_#1_(Data_type_-_Conditions)/Welcome_for_you_with_Conditions.cpp.obj: CXX_COMPILER__Welcome_for_yo_with_Conditions_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Welcome$ for$ you$ with$ Conditions.cpp || cmake_object_order_depends_target_Welcome_for_yo_with_Conditions
+  DEP_FILE = "CMakeFiles\Welcome_for_yo_with_Conditions.dir\Sheet_#1_(Data_type_-_Conditions)\Welcome_for_you_with_Conditions.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Welcome_for_yo_with_Conditions.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Welcome_for_yo_with_Conditions.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Welcome_for_yo_with_Conditions
+
+
+#############################################
+# Link the executable Welcome_for_yo_with_Conditions.exe
+
+build Welcome_for_yo_with_Conditions.exe: CXX_EXECUTABLE_LINKER__Welcome_for_yo_with_Conditions_Debug CMakeFiles/Welcome_for_yo_with_Conditions.dir/Sheet_#1_(Data_type_-_Conditions)/Welcome_for_you_with_Conditions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Welcome_for_yo_with_Conditions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Welcome_for_yo_with_Conditions.exe
+  TARGET_IMPLIB = libWelcome_for_yo_with_Conditions.dll.a
+  TARGET_PDB = Welcome_for_yo_with_Conditions.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -371,6 +404,8 @@ build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
 
 build Two_numbers: phony Two_numbers.exe
 
+build Welcome_for_yo_with_Conditions: phony Welcome_for_yo_with_Conditions.exe
+
 build calculator: phony calculator.exe
 
 build data_types: phony data_types.exe
@@ -389,7 +424,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe
 
 # =============================================================================
 # Built-in targets
