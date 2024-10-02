@@ -31,3 +31,5 @@ add_executable(Welcome_for_yo_with_Conditions
         "Sheet #1 (Data type - Conditions)/Welcome for you with Conditions.cpp")
 add_executable(Multiples
         "Sheet #1 (Data type - Conditions)/Multiples.cpp")
+add_executable(Max_and_Min
+        "Sheet #1 (Data type - Conditions)/Max and Min.cpp")

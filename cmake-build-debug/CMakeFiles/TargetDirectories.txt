@@ -9,5 +9,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Summation_from_1_to_N.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Two_numbers.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Welcome_for_yo_with_Conditions.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Multiples.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Max_and_Min.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

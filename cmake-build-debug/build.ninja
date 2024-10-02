@@ -409,6 +409,39 @@ build Multiples.exe: CXX_EXECUTABLE_LINKER__Multiples_Debug CMakeFiles/Multiples
   TARGET_IMPLIB = libMultiples.dll.a
   TARGET_PDB = Multiples.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Max_and_Min
+
+
+#############################################
+# Order-only phony target for Max_and_Min
+
+build cmake_object_order_depends_target_Max_and_Min: phony || CMakeFiles/Max_and_Min.dir
+
+build CMakeFiles/Max_and_Min.dir/Sheet_#1_(Data_type_-_Conditions)/Max_and_Min.cpp.obj: CXX_COMPILER__Max_and_Min_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/Max$ and$ Min.cpp || cmake_object_order_depends_target_Max_and_Min
+  DEP_FILE = "CMakeFiles\Max_and_Min.dir\Sheet_#1_(Data_type_-_Conditions)\Max_and_Min.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Max_and_Min.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Max_and_Min.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Max_and_Min
+
+
+#############################################
+# Link the executable Max_and_Min.exe
+
+build Max_and_Min.exe: CXX_EXECUTABLE_LINKER__Max_and_Min_Debug CMakeFiles/Max_and_Min.dir/Sheet_#1_(Data_type_-_Conditions)/Max_and_Min.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Max_and_Min.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Max_and_Min.exe
+  TARGET_IMPLIB = libMax_and_Min.dll.a
+  TARGET_PDB = Max_and_Min.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -439,6 +472,8 @@ build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
 build Digits_Summation: phony Digits_Summation.exe
 
+build Max_and_Min: phony Max_and_Min.exe
+
 build Multiples: phony Multiples.exe
 
 build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
@@ -465,7 +500,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe
 
 # =============================================================================
 # Built-in targets
