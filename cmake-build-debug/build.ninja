@@ -226,6 +226,12 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiple
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
   OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
 
+build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj: CXX_COMPILER__Area_of_a_Circle_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/The$ Brothers.cpp || cmake_object_order_depends_target_Area_of_a_Circle
+  DEP_FILE = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)\The_Brothers.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Area_of_a_Circle
@@ -234,7 +240,7 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiple
 #############################################
 # Link the executable Area_of_a_Circle.exe
 
-build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj
+build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
@@ -442,6 +448,39 @@ build Max_and_Min.exe: CXX_EXECUTABLE_LINKER__Max_and_Min_Debug CMakeFiles/Max_a
   TARGET_IMPLIB = libMax_and_Min.dll.a
   TARGET_PDB = Max_and_Min.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target The_Brothers
+
+
+#############################################
+# Order-only phony target for The_Brothers
+
+build cmake_object_order_depends_target_The_Brothers: phony || CMakeFiles/The_Brothers.dir
+
+build CMakeFiles/The_Brothers.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj: CXX_COMPILER__The_Brothers_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/The$ Brothers.cpp || cmake_object_order_depends_target_The_Brothers
+  DEP_FILE = "CMakeFiles\The_Brothers.dir\Sheet_#1_(Data_type_-_Conditions)\The_Brothers.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\The_Brothers.dir
+  OBJECT_FILE_DIR = "CMakeFiles\The_Brothers.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target The_Brothers
+
+
+#############################################
+# Link the executable The_Brothers.exe
+
+build The_Brothers.exe: CXX_EXECUTABLE_LINKER__The_Brothers_Debug CMakeFiles/The_Brothers.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\The_Brothers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = The_Brothers.exe
+  TARGET_IMPLIB = libThe_Brothers.dll.a
+  TARGET_PDB = The_Brothers.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -478,6 +517,8 @@ build Multiples: phony Multiples.exe
 
 build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
 
+build The_Brothers: phony The_Brothers.exe
+
 build Two_numbers: phony Two_numbers.exe
 
 build Welcome_for_yo_with_Conditions: phony Welcome_for_yo_with_Conditions.exe
@@ -500,7 +541,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe
 
 # =============================================================================
 # Built-in targets

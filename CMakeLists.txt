@@ -20,7 +20,8 @@ add_executable(dd
 
 add_executable(Area_of_a_Circle
         "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp"
-        "Sheet #1 (Data type - Conditions)/Multiples.cpp")
+        "Sheet #1 (Data type - Conditions)/Multiples.cpp"
+        "Sheet #1 (Data type - Conditions)/The Brothers.cpp")
 add_executable(Digits_Summation
         "Sheet #1 (Data type - Conditions)/Digits Summation.cpp")
 add_executable(Summation_from_1_to_N
@@ -33,3 +34,5 @@ add_executable(Multiples
         "Sheet #1 (Data type - Conditions)/Multiples.cpp")
 add_executable(Max_and_Min
         "Sheet #1 (Data type - Conditions)/Max and Min.cpp")
+add_executable(The_Brothers
+        "Sheet #1 (Data type - Conditions)/The Brothers.cpp")
