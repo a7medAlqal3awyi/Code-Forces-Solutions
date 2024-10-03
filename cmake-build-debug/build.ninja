@@ -481,6 +481,39 @@ build The_Brothers.exe: CXX_EXECUTABLE_LINKER__The_Brothers_Debug CMakeFiles/The
   TARGET_IMPLIB = libThe_Brothers.dll.a
   TARGET_PDB = The_Brothers.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target M
+
+
+#############################################
+# Order-only phony target for M
+
+build cmake_object_order_depends_target_M: phony || CMakeFiles/M.dir
+
+build CMakeFiles/M.dir/Sheet_#1_(Data_type_-_Conditions)/M._Capital_or_Small_or_Digit.cpp.obj: CXX_COMPILER__M_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/M.$ Capital$ or$ Small$ or$ Digit.cpp || cmake_object_order_depends_target_M
+  DEP_FILE = "CMakeFiles\M.dir\Sheet_#1_(Data_type_-_Conditions)\M._Capital_or_Small_or_Digit.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\M.dir
+  OBJECT_FILE_DIR = "CMakeFiles\M.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target M
+
+
+#############################################
+# Link the executable M.exe
+
+build M.exe: CXX_EXECUTABLE_LINKER__M_Debug CMakeFiles/M.dir/Sheet_#1_(Data_type_-_Conditions)/M._Capital_or_Small_or_Digit.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\M.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = M.exe
+  TARGET_IMPLIB = libM.dll.a
+  TARGET_PDB = M.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -510,6 +543,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
 build Digits_Summation: phony Digits_Summation.exe
+
+build M: phony M.exe
 
 build Max_and_Min: phony Max_and_Min.exe
 
@@ -541,7 +576,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe
 
 # =============================================================================
 # Built-in targets

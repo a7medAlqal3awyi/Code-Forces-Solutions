@@ -36,3 +36,5 @@ add_executable(Max_and_Min
         "Sheet #1 (Data type - Conditions)/Max and Min.cpp")
 add_executable(The_Brothers
         "Sheet #1 (Data type - Conditions)/The Brothers.cpp")
+add_executable(M
+        "Sheet #1 (Data type - Conditions)/M. Capital or Small or Digit.cpp")

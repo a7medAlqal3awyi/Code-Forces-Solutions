@@ -11,5 +11,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Welcome_for_yo_with_Condit
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Multiples.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Max_and_Min.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/The_Brothers.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/M.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
