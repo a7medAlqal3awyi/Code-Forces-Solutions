@@ -40,3 +40,5 @@ add_executable(M
         "Sheet #1 (Data type - Conditions)/M. Capital or Small or Digit.cpp")
 add_executable(N
         "Sheet #1 (Data type - Conditions)/N. Char.cpp")
+add_executable(O
+        "Sheet #1 (Data type - Conditions)/O. Calculator .cpp")

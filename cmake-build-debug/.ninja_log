@@ -15,7 +15,8 @@
 6	975	7493383179253000	CMakeFiles/dd.dir/Sheet_#1_(Data_type_-_Conditions)/Difference.cpp.obj	2cfb25cccd3c97c1
 4	618	7494324745119621	CMakeFiles/Summation_from_1_to_N.dir/Sheet_#1_(Data_type_-_Conditions)/Summation_from_1_to_N.cpp.obj	6f36d5da4067066d
 976	1332	7493383188951488	dd.exe	d2b322f8ba7564dc
-5	443	7496603769661812	build.ninja	4fcc64fab8d9fa39
+5	720	7496606016257641	CMakeFiles/N.dir/Sheet_#1_(Data_type_-_Conditions)/N._Char.cpp.obj	bb80013cb05b0897
+5	443	7497506932991628	build.ninja	4fcc64fab8d9fa39
 3	709	7493481898374368	CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj	7d33bf316042b7c5
 1088	1393	7494897096114212	Two_numbers.exe	9e2f03a4af7d4689
 710	902	7493481905436240	Area_of_a_Circle.exe	873691ed81739d65
@@ -32,5 +33,6 @@
 6	960	7495775080427251	CMakeFiles/Max_and_Min.dir/Sheet_#1_(Data_type_-_Conditions)/Max_and_Min.cpp.obj	322b3b52635ae915
 6	606	7496590917597880	CMakeFiles/M.dir/Sheet_#1_(Data_type_-_Conditions)/M._Capital_or_Small_or_Digit.cpp.obj	5653ade3731560c1
 606	742	7496590923608113	M.exe	fe32f8a597f7df84
-5	720	7496606016257641	CMakeFiles/N.dir/Sheet_#1_(Data_type_-_Conditions)/N._Char.cpp.obj	bb80013cb05b0897
 721	869	7496606023408383	N.exe	637378d70e3362c7
+7	1194	7497510558859328	CMakeFiles/O.dir/Sheet_#1_(Data_type_-_Conditions)/O._Calculator_.cpp.obj	d74b6a7fd0a66fea
+1195	1433	7497510570735700	O.exe	b3c557a946ee8381

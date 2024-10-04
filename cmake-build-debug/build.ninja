@@ -547,6 +547,39 @@ build N.exe: CXX_EXECUTABLE_LINKER__N_Debug CMakeFiles/N.dir/Sheet_#1_(Data_type
   TARGET_IMPLIB = libN.dll.a
   TARGET_PDB = N.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target O
+
+
+#############################################
+# Order-only phony target for O
+
+build cmake_object_order_depends_target_O: phony || CMakeFiles/O.dir
+
+build CMakeFiles/O.dir/Sheet_#1_(Data_type_-_Conditions)/O._Calculator_.cpp.obj: CXX_COMPILER__O_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/O.$ Calculator$ .cpp || cmake_object_order_depends_target_O
+  DEP_FILE = "CMakeFiles\O.dir\Sheet_#1_(Data_type_-_Conditions)\O._Calculator_.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\O.dir
+  OBJECT_FILE_DIR = "CMakeFiles\O.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target O
+
+
+#############################################
+# Link the executable O.exe
+
+build O.exe: CXX_EXECUTABLE_LINKER__O_Debug CMakeFiles/O.dir/Sheet_#1_(Data_type_-_Conditions)/O._Calculator_.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\O.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = O.exe
+  TARGET_IMPLIB = libO.dll.a
+  TARGET_PDB = O.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -585,6 +618,8 @@ build Multiples: phony Multiples.exe
 
 build N: phony N.exe
 
+build O: phony O.exe
+
 build Summation_from_1_to_N: phony Summation_from_1_to_N.exe
 
 build The_Brothers: phony The_Brothers.exe
@@ -611,7 +646,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe
 
 # =============================================================================
 # Built-in targets
