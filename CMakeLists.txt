@@ -42,3 +42,5 @@ add_executable(N
         "Sheet #1 (Data type - Conditions)/N. Char.cpp")
 add_executable(O
         "Sheet #1 (Data type - Conditions)/O. Calculator .cpp")
+add_executable(P
+        "Sheet #1 (Data type - Conditions)/P. First digit !.cpp")
