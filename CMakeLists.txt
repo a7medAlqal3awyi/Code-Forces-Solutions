@@ -44,3 +44,5 @@ add_executable(O
         "Sheet #1 (Data type - Conditions)/O. Calculator .cpp")
 add_executable(P
         "Sheet #1 (Data type - Conditions)/P. First digit !.cpp")
+add_executable(Q
+        "Sheet #1 (Data type - Conditions)/Q. Coordinates of a Point.cpp")
