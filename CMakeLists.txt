@@ -46,3 +46,5 @@ add_executable(P
         "Sheet #1 (Data type - Conditions)/P. First digit !.cpp")
 add_executable(Q
         "Sheet #1 (Data type - Conditions)/Q. Coordinates of a Point.cpp")
+add_executable(R
+        "Sheet #1 (Data type - Conditions)/R. Age in Days.cpp")
