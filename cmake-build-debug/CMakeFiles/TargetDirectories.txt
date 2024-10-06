@@ -17,5 +17,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/O.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/P.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Q.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/R.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/S.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
