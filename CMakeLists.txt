@@ -50,3 +50,5 @@ add_executable(R
         "Sheet #1 (Data type - Conditions)/R. Age in Days.cpp")
 add_executable(S
         "Sheet #1 (Data type - Conditions)/S. Interval.cpp")
+add_executable(T
+        "Sheet #1 (Data type - Conditions)/T. Sort Numbers.cpp")
