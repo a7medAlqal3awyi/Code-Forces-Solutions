@@ -21,7 +21,8 @@ add_executable(dd
 add_executable(Area_of_a_Circle
         "Sheet #1 (Data type - Conditions)/Area of a Circle.cpp"
         "Sheet #1 (Data type - Conditions)/Multiples.cpp"
-        "Sheet #1 (Data type - Conditions)/The Brothers.cpp")
+        "Sheet #1 (Data type - Conditions)/The Brothers.cpp"
+        "Sheet #1 (Data type - Conditions)/U. Float or int.cpp")
 add_executable(Digits_Summation
         "Sheet #1 (Data type - Conditions)/Digits Summation.cpp")
 add_executable(Summation_from_1_to_N
@@ -52,3 +53,5 @@ add_executable(S
         "Sheet #1 (Data type - Conditions)/S. Interval.cpp")
 add_executable(T
         "Sheet #1 (Data type - Conditions)/T. Sort Numbers.cpp")
+add_executable(U
+        "Sheet #1 (Data type - Conditions)/U. Float or int.cpp")

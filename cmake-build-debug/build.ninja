@@ -232,6 +232,12 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brot
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
   OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
 
+build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/U._Float_or_int.cpp.obj: CXX_COMPILER__Area_of_a_Circle_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/U.$ Float$ or$ int.cpp || cmake_object_order_depends_target_Area_of_a_Circle
+  DEP_FILE = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)\U._Float_or_int.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
+  OBJECT_FILE_DIR = "CMakeFiles\Area_of_a_Circle.dir\Sheet_#1_(Data_type_-_Conditions)"
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Area_of_a_Circle
@@ -240,7 +246,7 @@ build CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brot
 #############################################
 # Link the executable Area_of_a_Circle.exe
 
-build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj
+build Area_of_a_Circle.exe: CXX_EXECUTABLE_LINKER__Area_of_a_Circle_Debug CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Multiples.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/The_Brothers.cpp.obj CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/U._Float_or_int.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Area_of_a_Circle.dir
@@ -745,6 +751,39 @@ build T.exe: CXX_EXECUTABLE_LINKER__T_Debug CMakeFiles/T.dir/Sheet_#1_(Data_type
   TARGET_IMPLIB = libT.dll.a
   TARGET_PDB = T.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target U
+
+
+#############################################
+# Order-only phony target for U
+
+build cmake_object_order_depends_target_U: phony || CMakeFiles/U.dir
+
+build CMakeFiles/U.dir/Sheet_#1_(Data_type_-_Conditions)/U._Float_or_int.cpp.obj: CXX_COMPILER__U_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/U.$ Float$ or$ int.cpp || cmake_object_order_depends_target_U
+  DEP_FILE = "CMakeFiles\U.dir\Sheet_#1_(Data_type_-_Conditions)\U._Float_or_int.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\U.dir
+  OBJECT_FILE_DIR = "CMakeFiles\U.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target U
+
+
+#############################################
+# Link the executable U.exe
+
+build U.exe: CXX_EXECUTABLE_LINKER__U_Debug CMakeFiles/U.dir/Sheet_#1_(Data_type_-_Conditions)/U._Float_or_int.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\U.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = U.exe
+  TARGET_IMPLIB = libU.dll.a
+  TARGET_PDB = U.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -801,6 +840,8 @@ build The_Brothers: phony The_Brothers.exe
 
 build Two_numbers: phony Two_numbers.exe
 
+build U: phony U.exe
+
 build Welcome_for_yo_with_Conditions: phony Welcome_for_yo_with_Conditions.exe
 
 build calculator: phony calculator.exe
@@ -821,7 +862,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe
 
 # =============================================================================
 # Built-in targets
