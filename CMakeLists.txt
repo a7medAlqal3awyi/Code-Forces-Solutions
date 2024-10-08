@@ -55,3 +55,5 @@ add_executable(T
         "Sheet #1 (Data type - Conditions)/T. Sort Numbers.cpp")
 add_executable(U
         "Sheet #1 (Data type - Conditions)/U. Float or int.cpp")
+add_executable(V
+        "Sheet #1 (Data type - Conditions)/V. Comparison.cpp")
