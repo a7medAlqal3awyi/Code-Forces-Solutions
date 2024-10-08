@@ -57,3 +57,5 @@ add_executable(U
         "Sheet #1 (Data type - Conditions)/U. Float or int.cpp")
 add_executable(V
         "Sheet #1 (Data type - Conditions)/V. Comparison.cpp")
+add_executable(W
+        "Sheet #1 (Data type - Conditions)/W. Mathematical Expression.cpp")

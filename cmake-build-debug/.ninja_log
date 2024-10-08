@@ -1,12 +1,13 @@
 # ninja log v6
+605	719	7500924499961155	V.exe	f4e2342206ba1024
 3	710	7493264591961267	CMakeFiles/main.dir/main.cpp.obj	bb2bfe746d6a3e3
 8	728	7493257849234877	CMakeFiles/code_forces_solutions.dir/main.cpp.obj	1efc42a23c84f2f2
 5	655	7498359803406446	CMakeFiles/P.dir/Sheet_#1_(Data_type_-_Conditions)/P._First_digit_!.cpp.obj	453e6077af56c2b6
 3	580	7493264137842800	CMakeFiles/say_hello.dir/main.cpp.obj	facdc53c3e5bcdc9
 732	935	7493257856480920	code_forces_solutions.exe	8d99b27739255d5e
 4	706	7493266081046051	CMakeFiles/say_hello.dir/Sheet_#1_(Data_type_-_Conditions)/Say_Hello_With_C++.cpp.obj	9470b58f910094d0
-808	966	7500034071348734	R.exe	ad6f45cdc53df175
 708	914	7493266088082040	say_hello.exe	bc61313b7e80539a
+808	966	7500034071348734	R.exe	ad6f45cdc53df175
 714	973	7493264599066362	main.exe	ffa574385d2ad72d
 652	774	7496013323582689	The_Brothers.exe	4bdaf46b9ffebd2f
 5	807	7500034063323624	CMakeFiles/R.dir/Sheet_#1_(Data_type_-_Conditions)/R._Age_in_Days.cpp.obj	18084616490eb5ee
@@ -22,7 +23,7 @@
 976	1332	7493383188951488	dd.exe	d2b322f8ba7564dc
 5	720	7496606016257641	CMakeFiles/N.dir/Sheet_#1_(Data_type_-_Conditions)/N._Char.cpp.obj	bb80013cb05b0897
 1195	1433	7497510570735700	O.exe	b3c557a946ee8381
-5	443	7500916363890781	build.ninja	4fcc64fab8d9fa39
+5	443	7500926117854904	build.ninja	4fcc64fab8d9fa39
 3	709	7493481898374368	CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj	7d33bf316042b7c5
 1088	1393	7494897096114212	Two_numbers.exe	9e2f03a4af7d4689
 710	902	7493481905436240	Area_of_a_Circle.exe	873691ed81739d65
@@ -43,14 +44,11 @@
 721	869	7496606023408383	N.exe	637378d70e3362c7
 6	633	7498379775670962	CMakeFiles/Q.dir/Sheet_#1_(Data_type_-_Conditions)/Q._Coordinates_of_a_Point.cpp.obj	e6d5643df9078d0f
 7	1194	7497510558859328	CMakeFiles/O.dir/Sheet_#1_(Data_type_-_Conditions)/O._Calculator_.cpp.obj	d74b6a7fd0a66fea
+6	605	7500924493976046	CMakeFiles/V.dir/Sheet_#1_(Data_type_-_Conditions)/V._Comparison.cpp.obj	d8679ca2c82be3ec
 634	775	7498379781944180	Q.exe	68033b418e8c7e15
 5	633	7499521717757746	CMakeFiles/S.dir/Sheet_#1_(Data_type_-_Conditions)/S._Interval.cpp.obj	f80c0c3819435940
 821	1032	7500135145769062	T.exe	95765ab8e0af037b
 6	606	7500304849338819	CMakeFiles/U.dir/Sheet_#1_(Data_type_-_Conditions)/U._Float_or_int.cpp.obj	ffe4db0fb68e1575
 607	736	7500304855347066	U.exe	93236fe2a3bd04c5
-5	778	7500921876722356	CMakeFiles/V.dir/Sheet_#1_(Data_type_-_Conditions)/V._Comparison.cpp.obj	d8679ca2c82be3ec
-779	918	7500921884461179	V.exe	f4e2342206ba1024
-5	610	7500922366760584	CMakeFiles/V.dir/Sheet_#1_(Data_type_-_Conditions)/V._Comparison.cpp.obj	d8679ca2c82be3ec
-611	732	7500922372826421	V.exe	f4e2342206ba1024
-6	605	7500924493976046	CMakeFiles/V.dir/Sheet_#1_(Data_type_-_Conditions)/V._Comparison.cpp.obj	d8679ca2c82be3ec
-605	719	7500924499961155	V.exe	f4e2342206ba1024
+7	667	7500932897534378	CMakeFiles/W.dir/Sheet_#1_(Data_type_-_Conditions)/W._Mathematical_Expression.cpp.obj	26a2ab1ec7e9c2c5
+669	814	7500932904157599	W.exe	bc8f1ea8dca2fd8

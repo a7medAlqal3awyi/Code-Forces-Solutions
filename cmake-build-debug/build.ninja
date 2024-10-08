@@ -817,6 +817,39 @@ build V.exe: CXX_EXECUTABLE_LINKER__V_Debug CMakeFiles/V.dir/Sheet_#1_(Data_type
   TARGET_IMPLIB = libV.dll.a
   TARGET_PDB = V.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target W
+
+
+#############################################
+# Order-only phony target for W
+
+build cmake_object_order_depends_target_W: phony || CMakeFiles/W.dir
+
+build CMakeFiles/W.dir/Sheet_#1_(Data_type_-_Conditions)/W._Mathematical_Expression.cpp.obj: CXX_COMPILER__W_unscanned_Debug E$:/code_forces_solutions/Sheet$ #1$ (Data$ type$ -$ Conditions)/W.$ Mathematical$ Expression.cpp || cmake_object_order_depends_target_W
+  DEP_FILE = "CMakeFiles\W.dir\Sheet_#1_(Data_type_-_Conditions)\W._Mathematical_Expression.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\W.dir
+  OBJECT_FILE_DIR = "CMakeFiles\W.dir\Sheet_#1_(Data_type_-_Conditions)"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target W
+
+
+#############################################
+# Link the executable W.exe
+
+build W.exe: CXX_EXECUTABLE_LINKER__W_Debug CMakeFiles/W.dir/Sheet_#1_(Data_type_-_Conditions)/W._Mathematical_Expression.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\W.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = W.exe
+  TARGET_IMPLIB = libW.dll.a
+  TARGET_PDB = W.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -877,6 +910,8 @@ build U: phony U.exe
 
 build V: phony V.exe
 
+build W: phony W.exe
+
 build Welcome_for_yo_with_Conditions: phony Welcome_for_yo_with_Conditions.exe
 
 build calculator: phony calculator.exe
@@ -897,7 +932,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe
 
 # =============================================================================
 # Built-in targets
