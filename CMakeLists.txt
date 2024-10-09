@@ -59,3 +59,5 @@ add_executable(V
         "Sheet #1 (Data type - Conditions)/V. Comparison.cpp")
 add_executable(W
         "Sheet #1 (Data type - Conditions)/W. Mathematical Expression.cpp")
+add_executable(X
+        "Sheet #1 (Data type - Conditions)/X. Two intervals.cpp")
