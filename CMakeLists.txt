@@ -61,3 +61,5 @@ add_executable(W
         "Sheet #1 (Data type - Conditions)/W. Mathematical Expression.cpp")
 add_executable(X
         "Sheet #1 (Data type - Conditions)/X. Two intervals.cpp")
+add_executable(Y
+        "Sheet #1 (Data type - Conditions)/Y. The last 2 digits .cpp")
