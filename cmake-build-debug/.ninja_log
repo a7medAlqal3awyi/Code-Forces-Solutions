@@ -8,11 +8,13 @@
 4	706	7493266081046051	CMakeFiles/say_hello.dir/Sheet_#1_(Data_type_-_Conditions)/Say_Hello_With_C++.cpp.obj	9470b58f910094d0
 708	914	7493266088082040	say_hello.exe	bc61313b7e80539a
 808	966	7500034071348734	R.exe	ad6f45cdc53df175
+5	640	7506148818634370	CMakeFiles/A-WinterSale.dir/Contest_#1/A_-_Winter_Sale.cpp.obj	56546425169114a
 714	973	7493264599066362	main.exe	ffa574385d2ad72d
 652	774	7496013323582689	The_Brothers.exe	4bdaf46b9ffebd2f
 5	807	7500034063323624	CMakeFiles/R.dir/Sheet_#1_(Data_type_-_Conditions)/R._Age_in_Days.cpp.obj	18084616490eb5ee
 683	903	7502008819997627	X.exe	f052161184e5585a
 675	813	7504475888862343	Y.exe	e749aa2ffcf09b07
+1361	1711	7505212557468636	Z.exe	2b8f2ea3fff5af9d
 4	677	7493275265717771	CMakeFiles/data_types.dir/Sheet_#1_(Data_type_-_Conditions)/Basic_Data_Types.cpp.obj	a98d20cc631774d5
 656	809	7498359809912502	P.exe	bcc65409fe3ea727
 7	819	7500135137634594	CMakeFiles/T.dir/Sheet_#1_(Data_type_-_Conditions)/T._Sort_Numbers.cpp.obj	24078f8f2cbf79a8
@@ -25,7 +27,7 @@
 976	1332	7493383188951488	dd.exe	d2b322f8ba7564dc
 5	720	7496606016257641	CMakeFiles/N.dir/Sheet_#1_(Data_type_-_Conditions)/N._Char.cpp.obj	bb80013cb05b0897
 1195	1433	7497510570735700	O.exe	b3c557a946ee8381
-5	443	7504605520514126	build.ninja	4fcc64fab8d9fa39
+5	443	7506148840253258	build.ninja	4fcc64fab8d9fa39
 3	709	7493481898374368	CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj	7d33bf316042b7c5
 1088	1393	7494897096114212	Two_numbers.exe	9e2f03a4af7d4689
 710	902	7493481905436240	Area_of_a_Circle.exe	873691ed81739d65
@@ -33,6 +35,7 @@
 961	1138	7495775089978669	Max_and_Min.exe	7e6ba976e48350c4
 619	821	7494324751269435	Summation_from_1_to_N.exe	6e7beec6a77326b0
 5	1086	7494897085283107	CMakeFiles/Two_numbers.dir/Sheet_#1_(Data_type_-_Conditions)/Two_numbers.cpp.obj	11ff81315cb8f0be
+641	764	7506148825005088	A-WinterSale.exe	bb334d3367c7c081
 4	644	7494903024137227	CMakeFiles/Welcome_for_yo_with_Conditions.dir/Sheet_#1_(Data_type_-_Conditions)/Welcome_for_you_with_Conditions.cpp.obj	44ddff170e74fb8
 645	853	7494903030536158	Welcome_for_yo_with_Conditions.exe	5ca3f61c92ea03ea
 5	717	7494907213912595	CMakeFiles/Multiples.dir/Sheet_#1_(Data_type_-_Conditions)/Welcome_for_you_with_Conditions.cpp.obj	24dbe9a8f7ac38e5
@@ -56,13 +59,6 @@
 669	814	7500932904157599	W.exe	bc8f1ea8dca2fd8
 6	682	7502008813228471	CMakeFiles/X.dir/Sheet_#1_(Data_type_-_Conditions)/X._Two_intervals.cpp.obj	10ce3aa1fe71989e
 10	674	7504475882217198	CMakeFiles/Y.dir/Sheet_#1_(Data_type_-_Conditions)/Y._The_last_2_digits_.cpp.obj	ef634a11d65c6571
-6	567	7504607162982884	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
-568	699	7504607168594600	Z.exe	2b8f2ea3fff5af9d
-6	591	7504607689638508	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
-592	712	7504607695486430	Z.exe	2b8f2ea3fff5af9d
-6	557	7504608584292494	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
-558	686	7504608589811860	Z.exe	2b8f2ea3fff5af9d
-8	585	7504608775480936	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
-586	712	7504608781261645	Z.exe	2b8f2ea3fff5af9d
 12	1358	7505212543980115	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
-1361	1711	7505212557468636	Z.exe	2b8f2ea3fff5af9d
+6	993	7506107837372520	CMakeFiles/test.dir/Sheet_#1_(Data_type_-_Conditions)/test.cpp.obj	4e4a650de50239b4
+994	1175	7506107847258165	test.exe	511a77c15a0ea0b1

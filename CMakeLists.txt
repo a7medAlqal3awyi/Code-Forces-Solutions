@@ -65,3 +65,5 @@ add_executable(Y
         "Sheet #1 (Data type - Conditions)/Y. The last 2 digits .cpp")
 add_executable(Z
         "Sheet #1 (Data type - Conditions)/Z. Hard Compare.cpp")
+add_executable(A-WinterSale
+        "Contest #1/A - Winter Sale.cpp")

@@ -25,5 +25,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/W.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/X.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Y.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Z.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/A-WinterSale.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

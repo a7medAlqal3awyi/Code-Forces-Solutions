@@ -949,6 +949,39 @@ build Z.exe: CXX_EXECUTABLE_LINKER__Z_Debug CMakeFiles/Z.dir/Sheet_#1_(Data_type
   TARGET_IMPLIB = libZ.dll.a
   TARGET_PDB = Z.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target A-WinterSale
+
+
+#############################################
+# Order-only phony target for A-WinterSale
+
+build cmake_object_order_depends_target_A-WinterSale: phony || CMakeFiles/A-WinterSale.dir
+
+build CMakeFiles/A-WinterSale.dir/Contest_#1/A_-_Winter_Sale.cpp.obj: CXX_COMPILER__A-WinterSale_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/A$ -$ Winter$ Sale.cpp || cmake_object_order_depends_target_A-WinterSale
+  DEP_FILE = "CMakeFiles\A-WinterSale.dir\Contest_#1\A_-_Winter_Sale.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\A-WinterSale.dir
+  OBJECT_FILE_DIR = "CMakeFiles\A-WinterSale.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target A-WinterSale
+
+
+#############################################
+# Link the executable A-WinterSale.exe
+
+build A-WinterSale.exe: CXX_EXECUTABLE_LINKER__A-WinterSale_Debug CMakeFiles/A-WinterSale.dir/Contest_#1/A_-_Winter_Sale.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\A-WinterSale.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = A-WinterSale.exe
+  TARGET_IMPLIB = libA-WinterSale.dll.a
+  TARGET_PDB = A-WinterSale.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -974,6 +1007,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build A-WinterSale: phony A-WinterSale.exe
 
 build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
@@ -1037,7 +1072,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe
 
 # =============================================================================
 # Built-in targets
