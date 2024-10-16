@@ -982,6 +982,39 @@ build A-WinterSale.exe: CXX_EXECUTABLE_LINKER__A-WinterSale_Debug CMakeFiles/A-W
   TARGET_IMPLIB = libA-WinterSale.dll.a
   TARGET_PDB = A-WinterSale.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target B-Memo
+
+
+#############################################
+# Order-only phony target for B-Memo
+
+build cmake_object_order_depends_target_B-Memo: phony || CMakeFiles/B-Memo.dir
+
+build CMakeFiles/B-Memo.dir/Contest_#1/B._Memo_and_Momo.cpp.obj: CXX_COMPILER__B-Memo_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/B.$ Memo$ and$ Momo.cpp || cmake_object_order_depends_target_B-Memo
+  DEP_FILE = "CMakeFiles\B-Memo.dir\Contest_#1\B._Memo_and_Momo.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\B-Memo.dir
+  OBJECT_FILE_DIR = "CMakeFiles\B-Memo.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B-Memo
+
+
+#############################################
+# Link the executable B-Memo.exe
+
+build B-Memo.exe: CXX_EXECUTABLE_LINKER__B-Memo_Debug CMakeFiles/B-Memo.dir/Contest_#1/B._Memo_and_Momo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\B-Memo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = B-Memo.exe
+  TARGET_IMPLIB = libB-Memo.dll.a
+  TARGET_PDB = B-Memo.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1011,6 +1044,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build A-WinterSale: phony A-WinterSale.exe
 
 build Area_of_a_Circle: phony Area_of_a_Circle.exe
+
+build B-Memo: phony B-Memo.exe
 
 build Digits_Summation: phony Digits_Summation.exe
 
@@ -1072,7 +1107,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe
 
 # =============================================================================
 # Built-in targets
