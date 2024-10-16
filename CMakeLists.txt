@@ -69,3 +69,5 @@ add_executable(A-WinterSale
         "Contest #1/A - Winter Sale.cpp")
 add_executable(B-Memo
         "Contest #1/B. Memo and Momo.cpp")
+add_executable(C-Next
+        "Contest #1/C. Next Alphabet.cpp")

@@ -1015,6 +1015,39 @@ build B-Memo.exe: CXX_EXECUTABLE_LINKER__B-Memo_Debug CMakeFiles/B-Memo.dir/Cont
   TARGET_IMPLIB = libB-Memo.dll.a
   TARGET_PDB = B-Memo.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C-Next
+
+
+#############################################
+# Order-only phony target for C-Next
+
+build cmake_object_order_depends_target_C-Next: phony || CMakeFiles/C-Next.dir
+
+build CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj: CXX_COMPILER__C-Next_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/C.$ Next$ Alphabet.cpp || cmake_object_order_depends_target_C-Next
+  DEP_FILE = "CMakeFiles\C-Next.dir\Contest_#1\C._Next_Alphabet.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C-Next.dir
+  OBJECT_FILE_DIR = "CMakeFiles\C-Next.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C-Next
+
+
+#############################################
+# Link the executable C-Next.exe
+
+build C-Next.exe: CXX_EXECUTABLE_LINKER__C-Next_Debug CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\C-Next.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C-Next.exe
+  TARGET_IMPLIB = libC-Next.dll.a
+  TARGET_PDB = C-Next.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1046,6 +1079,8 @@ build A-WinterSale: phony A-WinterSale.exe
 build Area_of_a_Circle: phony Area_of_a_Circle.exe
 
 build B-Memo: phony B-Memo.exe
+
+build C-Next: phony C-Next.exe
 
 build Digits_Summation: phony Digits_Summation.exe
 
@@ -1107,7 +1142,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe
 
 # =============================================================================
 # Built-in targets
