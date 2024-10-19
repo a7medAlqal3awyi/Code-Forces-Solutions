@@ -1,7 +1,7 @@
 # ninja log v6
 605	719	7500924499961155	V.exe	f4e2342206ba1024
 3	710	7493264591961267	CMakeFiles/main.dir/main.cpp.obj	bb2bfe746d6a3e3
-4	553	7508170420263521	CMakeFiles/B-Memo.dir/Contest_#1/B._Memo_and_Momo.cpp.obj	f86814356e5033a8
+6	629	7508185495512343	CMakeFiles/B-Memo.dir/Contest_#1/B._Memo_and_Momo.cpp.obj	f86814356e5033a8
 8	728	7493257849234877	CMakeFiles/code_forces_solutions.dir/main.cpp.obj	1efc42a23c84f2f2
 5	655	7498359803406446	CMakeFiles/P.dir/Sheet_#1_(Data_type_-_Conditions)/P._First_digit_!.cpp.obj	453e6077af56c2b6
 3	580	7493264137842800	CMakeFiles/say_hello.dir/main.cpp.obj	facdc53c3e5bcdc9
@@ -28,7 +28,7 @@
 976	1332	7493383188951488	dd.exe	d2b322f8ba7564dc
 5	720	7496606016257641	CMakeFiles/N.dir/Sheet_#1_(Data_type_-_Conditions)/N._Char.cpp.obj	bb80013cb05b0897
 1195	1433	7497510570735700	O.exe	b3c557a946ee8381
-5	443	7508172713585939	build.ninja	4fcc64fab8d9fa39
+5	443	7510419851425529	build.ninja	4fcc64fab8d9fa39
 3	709	7493481898374368	CMakeFiles/Area_of_a_Circle.dir/Sheet_#1_(Data_type_-_Conditions)/Area_of_a_Circle.cpp.obj	7d33bf316042b7c5
 1088	1393	7494897096114212	Two_numbers.exe	9e2f03a4af7d4689
 710	902	7493481905436240	Area_of_a_Circle.exe	873691ed81739d65
@@ -63,18 +63,10 @@
 12	1358	7505212543980115	CMakeFiles/Z.dir/Sheet_#1_(Data_type_-_Conditions)/Z._Hard_Compare.cpp.obj	84280d2cd4dd3a48
 6	993	7506107837372520	CMakeFiles/test.dir/Sheet_#1_(Data_type_-_Conditions)/test.cpp.obj	4e4a650de50239b4
 994	1175	7506107847258165	test.exe	511a77c15a0ea0b1
-554	1007	7508170425764565	B-Memo.exe	ff625ed6e4c35289
-6	629	7508185495512343	CMakeFiles/B-Memo.dir/Contest_#1/B._Memo_and_Momo.cpp.obj	f86814356e5033a8
 630	1106	7508185501753824	B-Memo.exe	ff625ed6e4c35289
-7	781	7508185590448838	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
-782	1207	7508185598202220	C-Next.exe	34736bf1c004efc4
-6	672	7508186791564678	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
-673	1093	7508186798237319	C-Next.exe	34736bf1c004efc4
-6	654	7508187651146219	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
-655	1101	7508187657635331	C-Next.exe	34736bf1c004efc4
-6	628	7508188287245163	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
-629	1051	7508188293478813	C-Next.exe	34736bf1c004efc4
-5	649	7508189148180565	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
-650	1093	7508189154618197	C-Next.exe	34736bf1c004efc4
 5	645	7508189256706060	CMakeFiles/C-Next.dir/Contest_#1/C._Next_Alphabet.cpp.obj	fbcee06d00792498
 646	1081	7508189263117637	C-Next.exe	34736bf1c004efc4
+10	904	7510426221552163	CMakeFiles/D-AliBaba.dir/Contest_#1/D._Ali_Baba_and_Puzzles.cpp.obj	b2e245c49864c8af
+905	1081	7510426230512538	D-AliBaba.exe	e9ba9d5a6b1cf92c
+7	587	7510426433607485	CMakeFiles/D-AliBaba.dir/Contest_#1/D._Ali_Baba_and_Puzzles.cpp.obj	b2e245c49864c8af
+587	707	7510426439408731	D-AliBaba.exe	e9ba9d5a6b1cf92c

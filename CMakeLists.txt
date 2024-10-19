@@ -71,3 +71,6 @@ add_executable(B-Memo
         "Contest #1/B. Memo and Momo.cpp")
 add_executable(C-Next
         "Contest #1/C. Next Alphabet.cpp")
+
+add_executable(D-AliBaba
+        "Contest #1/D. Ali Baba and Puzzles.cpp")

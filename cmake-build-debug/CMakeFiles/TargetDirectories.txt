@@ -28,5 +28,6 @@ E:/code_forces_solutions/cmake-build-debug/CMakeFiles/Z.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/A-WinterSale.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/B-Memo.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/C-Next.dir
+E:/code_forces_solutions/cmake-build-debug/CMakeFiles/D-AliBaba.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/code_forces_solutions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

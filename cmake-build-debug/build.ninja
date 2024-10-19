@@ -1048,6 +1048,39 @@ build C-Next.exe: CXX_EXECUTABLE_LINKER__C-Next_Debug CMakeFiles/C-Next.dir/Cont
   TARGET_IMPLIB = libC-Next.dll.a
   TARGET_PDB = C-Next.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target D-AliBaba
+
+
+#############################################
+# Order-only phony target for D-AliBaba
+
+build cmake_object_order_depends_target_D-AliBaba: phony || CMakeFiles/D-AliBaba.dir
+
+build CMakeFiles/D-AliBaba.dir/Contest_#1/D._Ali_Baba_and_Puzzles.cpp.obj: CXX_COMPILER__D-AliBaba_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/D.$ Ali$ Baba$ and$ Puzzles.cpp || cmake_object_order_depends_target_D-AliBaba
+  DEP_FILE = "CMakeFiles\D-AliBaba.dir\Contest_#1\D._Ali_Baba_and_Puzzles.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D-AliBaba.dir
+  OBJECT_FILE_DIR = "CMakeFiles\D-AliBaba.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D-AliBaba
+
+
+#############################################
+# Link the executable D-AliBaba.exe
+
+build D-AliBaba.exe: CXX_EXECUTABLE_LINKER__D-AliBaba_Debug CMakeFiles/D-AliBaba.dir/Contest_#1/D._Ali_Baba_and_Puzzles.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D-AliBaba.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D-AliBaba.exe
+  TARGET_IMPLIB = libD-AliBaba.dll.a
+  TARGET_PDB = D-AliBaba.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1081,6 +1114,8 @@ build Area_of_a_Circle: phony Area_of_a_Circle.exe
 build B-Memo: phony B-Memo.exe
 
 build C-Next: phony C-Next.exe
+
+build D-AliBaba: phony D-AliBaba.exe
 
 build Digits_Summation: phony Digits_Summation.exe
 
@@ -1142,7 +1177,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe
 
 # =============================================================================
 # Built-in targets
