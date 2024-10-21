@@ -1081,6 +1081,39 @@ build D-AliBaba.exe: CXX_EXECUTABLE_LINKER__D-AliBaba_Debug CMakeFiles/D-AliBaba
   TARGET_IMPLIB = libD-AliBaba.dll.a
   TARGET_PDB = D-AliBaba.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target E-Interval
+
+
+#############################################
+# Order-only phony target for E-Interval
+
+build cmake_object_order_depends_target_E-Interval: phony || CMakeFiles/E-Interval.dir
+
+build CMakeFiles/E-Interval.dir/Contest_#1/E._Interval_Sweep.cpp.obj: CXX_COMPILER__E-Interval_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/E.$ Interval$ Sweep.cpp || cmake_object_order_depends_target_E-Interval
+  DEP_FILE = "CMakeFiles\E-Interval.dir\Contest_#1\E._Interval_Sweep.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E-Interval.dir
+  OBJECT_FILE_DIR = "CMakeFiles\E-Interval.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E-Interval
+
+
+#############################################
+# Link the executable E-Interval.exe
+
+build E-Interval.exe: CXX_EXECUTABLE_LINKER__E-Interval_Debug CMakeFiles/E-Interval.dir/Contest_#1/E._Interval_Sweep.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E-Interval.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E-Interval.exe
+  TARGET_IMPLIB = libE-Interval.dll.a
+  TARGET_PDB = E-Interval.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1118,6 +1151,8 @@ build C-Next: phony C-Next.exe
 build D-AliBaba: phony D-AliBaba.exe
 
 build Digits_Summation: phony Digits_Summation.exe
+
+build E-Interval: phony E-Interval.exe
 
 build M: phony M.exe
 
@@ -1177,7 +1212,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe E-Interval.exe
 
 # =============================================================================
 # Built-in targets

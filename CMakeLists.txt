@@ -74,3 +74,5 @@ add_executable(C-Next
 
 add_executable(D-AliBaba
         "Contest #1/D. Ali Baba and Puzzles.cpp")
+add_executable(E-Interval
+        "Contest #1/E. Interval Sweep.cpp")
