@@ -1114,6 +1114,39 @@ build E-Interval.exe: CXX_EXECUTABLE_LINKER__E-Interval_Debug CMakeFiles/E-Inter
   TARGET_IMPLIB = libE-Interval.dll.a
   TARGET_PDB = E-Interval.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target F-Adding
+
+
+#############################################
+# Order-only phony target for F-Adding
+
+build cmake_object_order_depends_target_F-Adding: phony || CMakeFiles/F-Adding.dir
+
+build CMakeFiles/F-Adding.dir/Contest_#1/F._Adding_Bits.cpp.obj: CXX_COMPILER__F-Adding_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/F.$ Adding$ Bits.cpp || cmake_object_order_depends_target_F-Adding
+  DEP_FILE = "CMakeFiles\F-Adding.dir\Contest_#1\F._Adding_Bits.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\F-Adding.dir
+  OBJECT_FILE_DIR = "CMakeFiles\F-Adding.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target F-Adding
+
+
+#############################################
+# Link the executable F-Adding.exe
+
+build F-Adding.exe: CXX_EXECUTABLE_LINKER__F-Adding_Debug CMakeFiles/F-Adding.dir/Contest_#1/F._Adding_Bits.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\F-Adding.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = F-Adding.exe
+  TARGET_IMPLIB = libF-Adding.dll.a
+  TARGET_PDB = F-Adding.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1153,6 +1186,8 @@ build D-AliBaba: phony D-AliBaba.exe
 build Digits_Summation: phony Digits_Summation.exe
 
 build E-Interval: phony E-Interval.exe
+
+build F-Adding: phony F-Adding.exe
 
 build M: phony M.exe
 
@@ -1212,7 +1247,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe E-Interval.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe E-Interval.exe F-Adding.exe
 
 # =============================================================================
 # Built-in targets
