@@ -1147,6 +1147,39 @@ build F-Adding.exe: CXX_EXECUTABLE_LINKER__F-Adding_Debug CMakeFiles/F-Adding.di
   TARGET_IMPLIB = libF-Adding.dll.a
   TARGET_PDB = F-Adding.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target H-DataTypeGuessing
+
+
+#############################################
+# Order-only phony target for H-DataTypeGuessing
+
+build cmake_object_order_depends_target_H-DataTypeGuessing: phony || CMakeFiles/H-DataTypeGuessing.dir
+
+build CMakeFiles/H-DataTypeGuessing.dir/Contest_#1/H._Data_Type_Guessing.cpp.obj: CXX_COMPILER__H-DataTypeGuessing_unscanned_Debug E$:/code_forces_solutions/Contest$ #1/H.$ Data$ Type$ Guessing.cpp || cmake_object_order_depends_target_H-DataTypeGuessing
+  DEP_FILE = "CMakeFiles\H-DataTypeGuessing.dir\Contest_#1\H._Data_Type_Guessing.cpp.obj.d"
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\H-DataTypeGuessing.dir
+  OBJECT_FILE_DIR = "CMakeFiles\H-DataTypeGuessing.dir\Contest_#1"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target H-DataTypeGuessing
+
+
+#############################################
+# Link the executable H-DataTypeGuessing.exe
+
+build H-DataTypeGuessing.exe: CXX_EXECUTABLE_LINKER__H-DataTypeGuessing_Debug CMakeFiles/H-DataTypeGuessing.dir/Contest_#1/H._Data_Type_Guessing.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\H-DataTypeGuessing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = H-DataTypeGuessing.exe
+  TARGET_IMPLIB = libH-DataTypeGuessing.dll.a
+  TARGET_PDB = H-DataTypeGuessing.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1188,6 +1221,8 @@ build Digits_Summation: phony Digits_Summation.exe
 build E-Interval: phony E-Interval.exe
 
 build F-Adding: phony F-Adding.exe
+
+build H-DataTypeGuessing: phony H-DataTypeGuessing.exe
 
 build M: phony M.exe
 
@@ -1247,7 +1282,7 @@ build say_hello: phony say_hello.exe
 #############################################
 # Folder: E:/code_forces_solutions/cmake-build-debug
 
-build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe E-Interval.exe F-Adding.exe
+build all: phony main.exe say_hello.exe data_types.exe calculator.exe dd.exe Area_of_a_Circle.exe Digits_Summation.exe Summation_from_1_to_N.exe Two_numbers.exe Welcome_for_yo_with_Conditions.exe Multiples.exe Max_and_Min.exe The_Brothers.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe Z.exe A-WinterSale.exe B-Memo.exe C-Next.exe D-AliBaba.exe E-Interval.exe F-Adding.exe H-DataTypeGuessing.exe
 
 # =============================================================================
 # Built-in targets
